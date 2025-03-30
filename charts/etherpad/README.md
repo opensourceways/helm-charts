@@ -1,0 +1,1 @@
+This chart is pull and modified from `https://artifacthub.io/packages/helm/schoenwald/etherpad` using `helm fetch --untar schoenwald/etherpad `
