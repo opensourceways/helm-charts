@@ -1,0 +1,17 @@
+apiVersion: v2
+appVersion: 2.2.7
+dependencies:
+- condition: postgresql.enabled
+  name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: ~12.1.6
+description: A Helm chart for Kubernetes to Deploy Etherpad.
+home: https://github.com/ether/etherpad-lite
+icon: https://etherpad.org/img/brand.svg
+maintainers:
+- email: dev@privatetrace.io
+  name: 0hlov3
+  url: https://schoenwald.aero
+name: etherpad
+type: application
+version: 0.1.9
